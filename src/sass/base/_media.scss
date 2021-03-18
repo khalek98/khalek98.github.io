@@ -264,7 +264,7 @@
             width: 100%;
         }
         &__tab {
-            width: 80%;
+            width: 300px;
             margin-top: 10px;
             transition: 0.5s all;
             &:hover {
@@ -362,7 +362,8 @@
             width: 100%;
         }
         &__tab {
-            width: 80%;
+            width:80%;
+            max-width: 300px;
             margin-top: 10px;
             transition: 0.5s all;
             &:hover {
