@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: local('MuseoSansCyrl-500'),
+        url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: local('MuseoSansCyrl-300'),
+        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: local('MuseoSansCyrl-700'),
+        url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* IcoMoon SOCIAL ICONS */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?2y8cqs');
+    src:  url('../fonts/icomoon.eot?2y8cqs#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?2y8cqs') format('truetype'),
+      url('../fonts/icomoon.woff?2y8cqs') format('woff'),
+      url('../fonts/icomoon.svg?2y8cqs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-pinterest-p:before {
+    content: "\e900";
+  }
+  .icon-facebook-f-brands:before {
+    content: "\e901";
+  }
+  .icon-twitter-brands:before {
+    content: "\e903";
+  }
+  .icon-linkedin-brands:before {
+    content: "\e902";
+  }
+  .icon-instagram-brands:before {
+    content: "\e904";
+  }
+  
